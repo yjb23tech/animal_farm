@@ -11,3 +11,12 @@ print(test_Bird)
 
 print(test_Human.human_sounds)
 print(test_Bird.bird_sounds)
+
+for x in range(1,11):
+    
+    if ((x % 2) == 0):
+        print(f"{x} is even therefore we say: {test_Human.human_sounds}")
+    else:
+        print(f"{x} is odd so we say: {test_Bird.bird_sounds}")
+
+
